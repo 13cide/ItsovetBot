@@ -1,7 +1,7 @@
 import telebot as tb
 import pickle
 
-bot = tb.TeleBot('5208301560:AAExKJUqImX7LQEK8C8VuLlZFNJTmvO7OK0')
+bot = tb.TeleBot()
 
 with open('data/users_base', 'rb') as file:
     users = pickle.load(file)
